@@ -88,5 +88,5 @@ function getDay(){
   };
 
   
-  return today.toLocaleDateString("en-EN", options);
+  return today.toLocaleDateString("es-ES", options);
 };
