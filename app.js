@@ -3,7 +3,7 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const ejs = require("ejs");
 const lodash = require("lodash");
-const port = 3000;
+const port =  process.env.PORT || 3000;
 
 const homeStartingContent = "";
 const aboutContent = "Mi diario es un espacio digital diseñado para que los usuarios puedan escribir, organizar y compartir sus pensamientos, experiencias y reflexiones de manera privada. Este tipo de sitio web ofrece un entorno seguro y personalizado donde los usuarios pueden registrar y mantener un registro íntimo de sus vivencias, metas, emociones y cualquier otro aspecto relevante de sus vidas.";
